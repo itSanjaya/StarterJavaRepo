@@ -23,4 +23,9 @@ public class Calculator {
    public double getCurrentValue() {
       return currentValue;
    }
+
+   // print the current value
+   public void printCurrentValue() {
+      System.out.println("Current value: " + currentValue);
+   }
 }
