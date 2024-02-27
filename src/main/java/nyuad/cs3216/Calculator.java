@@ -24,8 +24,8 @@ public class Calculator {
       return currentValue;
    }
 
-   // print name
-   public void printName() {
-      System.out.println("Calculator");
+   // print the current value
+   public void printCurrentValue() {
+      System.out.println("Current value: " + currentValue);
    }
 }
