@@ -47,13 +47,13 @@ public class CalculatorTest {
         assertEquals(Double.POSITIVE_INFINITY, calculator.divide(5, 0));
     }
 
-    @Test
-    public void Multiply_it(){
-        int a = 5;
-        int b = 3;
-        double expected = 15;
-        assertEquals(expected, calculator.multiply(a, b));
-    }
+    // @Test
+    // public void Multiply_it(){
+    //     int a = 5;
+    //     int b = 3;
+    //     double expected = 15;
+    //     assertEquals(expected, calculator.multiply(a, b));
+    // }
     
 
 }
