@@ -2,6 +2,7 @@ package nyuad.cs3216;
 
 public class Calculator {
    private double currentValue;
+   private double multiplyValue;
 
    public double divide(int a, int b) {
 
@@ -16,9 +17,9 @@ public class Calculator {
       return currentValue;
    }
 
-   // public double getMultiplyValue(){
-   //    return multiplyValue;
-   // }
+   public double getMultiplyValue(){
+      return multiplyValue;
+   }
 
    public double getCurrentValue() {
       return currentValue;
